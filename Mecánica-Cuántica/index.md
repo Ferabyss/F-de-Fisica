@@ -9,6 +9,7 @@ has_children: true
 
 ## Tema 1
 jdkdssjsjs
+
 {: .nota-title }
 > Anotación importante
 >
