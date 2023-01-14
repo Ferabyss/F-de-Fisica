@@ -5,7 +5,7 @@ theme: just-the-docs
 url: https://Ferabyss.github.io/F-de-Física
 
 callouts:
-  warning:
+  nota:
     title: Nota
     color: purple
 
