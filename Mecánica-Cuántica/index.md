@@ -13,9 +13,11 @@ jdkdssjsjs
 > Anotación importante
 >
 > Una anotación importante sobre el tema
+
 ### Subtema 1
 Esto es un ejemplo
 
 ## Tema 2
+
 {: .nota }
 Una nota común
