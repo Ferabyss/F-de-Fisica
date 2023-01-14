@@ -9,11 +9,13 @@ has_children: true
 
 ## Tema 1
 jdkdssjsjs
-{: .note-title }
-> Nota
+{: .nota-title }
+> Anotación importante
 >
 > Una anotación importante sobre el tema
 ### Subtema 1
 Esto es un ejemplo
 
 ## Tema 2
+{: .nota }
+Una nota común
