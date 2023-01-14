@@ -5,6 +5,15 @@ nav_order: 2
 has_children: true
 ---
 
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # Introducción
 
 ## Tema 1
@@ -22,3 +31,4 @@ Esto es un ejemplo
 
 {: .nota }
 Una nota común
+
