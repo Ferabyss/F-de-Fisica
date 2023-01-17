@@ -1,7 +1,7 @@
+
 ---
 layout: default
 title: Restricciones
-nav_order: 2
 parent: Mecánica Lagrangiana
 has_toc: false
 ---
