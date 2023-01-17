@@ -1,5 +1,5 @@
 ---
-title: Restricciones.md
+title: Restricciones
 layout: default
 parent: Lagrange con restricciones
 ---
