@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Restricciones
+mathjax: true
 ---
 
 ## Teoría
