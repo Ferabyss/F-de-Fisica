@@ -1,5 +1,6 @@
 
 ---
+
 layout: default
 title: Restricciones
 parent: Mecánica Lagrangiana
