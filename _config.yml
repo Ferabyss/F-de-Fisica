@@ -5,12 +5,7 @@ theme: just-the-docs
 logo: "/assets/images/logo3.png"
 favicon_ico: "/assets/images/icon1.png"
 
-compress_html:
-  blanklines: true
-  
-mathjax:
-  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
-  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
+math: katex
   
 callouts:
   nota:
