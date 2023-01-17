@@ -6,15 +6,6 @@ parent: Mecánica Lagrangiana
 has_toc: false
 ---
 
-# Ecuaciones de Lagrange con Restricciones
-{: .no_toc }
-
-## Contenidos
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Teoría
 Se define la Lagrangiana generalizada como:
 
