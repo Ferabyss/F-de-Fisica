@@ -1,8 +1,12 @@
 
 ---
 layout: default
-title: Restricciones
+title: restriccion
 parent: Mecánica Lagrangiana
-has_toc: false
 ---
-Hola
+
+
+hahj
+ahajjs 
+# hjsjsks
+sjjs
