@@ -1,6 +1,6 @@
 ---
 title: Lagrange con restricciones
-layout: pages
+layout: default
 has_children: true
 ---
 
