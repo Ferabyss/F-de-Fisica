@@ -2,7 +2,8 @@ title: F de Física
 description: Hola
 theme: just-the-docs
 
-logo: "/images/logo2.png"
+logo: "/assets/images/logo2.png"
+favicon_ico: "/assets/images/icon.ico"
 
 
 callouts:
