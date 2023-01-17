@@ -2,6 +2,9 @@ title: F de Física
 description: Hola
 theme: just-the-docs
 
+logo: "/images/logo1.png"
+
+
 callouts:
   nota:
     title: Nota
