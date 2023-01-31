@@ -13,11 +13,11 @@ Una esfera de radio R y masa M descansa sobre el borde de una esquina.Al comenza
 
 Expresando newton en coordenadas polares. Para la componente radial se tiene:
 
-$$-mR\dot{\alpha}^2=N-mgcos\alpha$$ 
+$$-mR\dot{\alpha}^2=N-mgcos\alpha  ...(1)$$ 
 
-Mientras que, para la componente angular se tiene:
+Mientras que para la componente angular:
 
-$$mR\ddot{\alpha}=mgsin\alpha-F_r$$
+$$mR\ddot{\alpha}=mgsin\alpha-F_r  ...(2)$$
 
 Al aplicar una torca en el punto de rotación, es decir, la esquina:
 
@@ -31,7 +31,7 @@ Por ejes paralelos sabemos que $$I=I_{cm}+md^2$$ con d la distancia entre los do
 
 Por lo que el momento de inercia de la superficie de la esfera está dada por:
 
-$$I=\frac{2}{5}mR^2+ma^2=\frac{7}{5}ma^2$$
+$$I=\frac{2}{5}mR^2+mR^2=\frac{7}{5}mR^2$$
 
 Sustituyendo I en la ec. de la torca:
 
