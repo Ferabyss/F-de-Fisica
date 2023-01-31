@@ -13,11 +13,11 @@ Una esfera de radio R y masa M descansa sobre el borde de una esquina.Al comenza
 
 Expresando newton en coordenadas polares. Para la componente radial se tiene:
 
-$$-mR\dot{\alpha}^2=N-mgcos\alpha  ...(1)$$ 
+$$\tag{1}-mR\dot{\alpha}^2=N-mgcos\alpha$$ 
 
 Mientras que para la componente angular:
 
-$$mR\ddot{\alpha}=mgsin\alpha-F_r  ...(2)$$
+$$\tag{2}mR\ddot{\alpha}=mgsin\alpha-F_r  ...(2)$$
 
 Al aplicar una torca en el punto de rotación, es decir, la esquina:
 
