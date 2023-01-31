@@ -17,7 +17,7 @@ $$\tag{1}-mR\dot{\alpha}^2=N-mgcos\alpha$$
 
 Mientras que para la componente angular:
 
-$$\tag{2}mR\ddot{\alpha}=mgsin\alpha-F_r  ...(2)$$
+$$\tag{2}mR\ddot{\alpha}=mgsin\alpha-F_r$$
 
 Al aplicar una torca en el punto de rotación, es decir, la esquina:
 
