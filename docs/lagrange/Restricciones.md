@@ -1,7 +1,7 @@
 ---
 title: Restricciones
 layout: default
-parent: Lagrange con restricciones
+parent: Mecánica Clásica
 ---
 
 ## Teoría
