@@ -36,3 +36,31 @@ $$I=\frac{2}{5}mR^2+mR^2=\frac{7}{5}mR^2$$
 Sustituyendo I en la ec. de la torca:
 
 $$\ddot{\alpha}=\frac{5}{7}\frac{gsin\alpha}{R}$$
+Por regla de la cadena:
+
+$$\dot{\alpha}\frac{d\dot{\alpha}}{d\alpha}=\frac{5}{7}\frac{gsin\alpha}{R}d\alpha$$
+
+Integrando:
+
+$$\int_0^\dot{\alpha}\dot{\alpha}d\dot{\alpha}=\int_0^\alpha\frac{5}{7}\frac{gsin\alpha}{R}d\alpha$$
+
+$$\frac{\dot{\alpha}^2}{2}=\frac{5}{7}\frac{g}{R}(1-cos\alpha)$$
+
+Despejando:
+
+$$\dot{\alpha}^2=\frac{10g}{7R}(1-cos\alpha)$$
+
+Sustituyendo en la ec. 1 cuando $$N=0$$, es decir cuando, la esfera abandona el borde, tenemos que:
+
+$$\frac{10\cancel{-mgR}}{7\cancel{R}}(1-cos\alpha)=\cancel{-mg}cos\alpha$$ 
+
+$$\frac{10}{7}(1-cos\alpha)=cos\alpha$$
+
+$$1=\frac{17}{10}cos\alpha\implies cos\alpha=\frac{10}{17}$$
+
+$$\therefore \alpha=cos^{-1} (\frac{10}{17}) \approx53.968$$
+
+Finalmente, sustituyendo en la ec. 3 y despejando $$\dot{\alpha}$$:
+
+$$\dot{\alpha}=\sqrt{\frac{10g}{7R}\left 1-\frac{10}{17}\right}$$
+$$\therefore \dot{\alpha}=\sqrt{\frac{10g}{17R}}$$
