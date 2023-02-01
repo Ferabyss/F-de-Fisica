@@ -62,5 +62,5 @@ $$\therefore \alpha=cos^{-1} (\frac{10}{17}) \approx53.968$$
 
 Finalmente, sustituyendo en la ec. 3 y despejando $$\dot{\alpha}$$:
 
-$$\dot{\alpha}=\sqrt{\frac{10g}{7R}\left 1-\frac{10}{17}\right}$$
+$$\dot{\alpha}=\sqrt{\frac{10g}{7R}(1-\frac{10}{17})}$$
 $$\therefore \dot{\alpha}=\sqrt{\frac{10g}{17R}}$$
