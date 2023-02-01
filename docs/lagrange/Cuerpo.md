@@ -9,7 +9,7 @@ parent: Mecánica Clásica
 
 ## Ejercicio 1
 
-{: .flex-justify-between}
+{: .flex-justify-stretch}
 Una esfera de radio R y masa M descansa sobre el borde de una esquina. Al comenzar a rodar el rozamiento entre la esquina y la esfera es suficiente para evitar el desplazamiento. Determine el ángulo $$\alpha$$ y la velocidad angular cuando la esfera abandona el borde.
 
 Expresando newton en coordenadas polares. Para la componente radial se tiene:
