@@ -42,7 +42,7 @@ $$\dot{\alpha}\frac{d\dot{\alpha}}{d\alpha}=\frac{5}{7}\frac{gsin\alpha}{R}d\alp
 
 Integrando:
 
-$$\int_{0^\dot{\alpha}}\dot{\alpha}d\dot{\alpha}=\int_{0^\alpha}\frac{5}{7}\frac{gsin\alpha}{R}d\alpha$$
+$$\int_0^{\dot{\alpha}}\dot{\alpha}d\dot{\alpha}=\int_0^{\alpha}\frac{5}{7}\frac{gsin\alpha}{R}d\alpha$$
 
 $$\frac{\dot{\alpha}^2}{2}=\frac{5}{7}\frac{g}{R}(1-cos\alpha)$$
 
