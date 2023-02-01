@@ -33,9 +33,10 @@ Por lo que el momento de inercia de la superficie de la esfera está dada por:
 
 $$I=\frac{2}{5}mR^2+mR^2=\frac{7}{5}mR^2$$
 
-Sustituyendo I en la ec. de la torca:
+Sustituyendo en la ecuación de la torca y despejando:
 
 $$\ddot{\alpha}=\frac{5}{7}\frac{gsin\alpha}{R}$$
+
 Por regla de la cadena:
 
 $$\dot{\alpha}\frac{d\dot{\alpha}}{d\alpha}=\frac{5}{7}\frac{gsin\alpha}{R}d\alpha$$
@@ -48,7 +49,7 @@ $$\frac{\dot{\alpha}^2}{2}=\frac{5}{7}\frac{g}{R}(1-cos\alpha)$$
 
 Despejando:
 
-$$\dot{\alpha}^2=\frac{10g}{7R}(1-cos\alpha)$$
+$$\tag{3}\dot{\alpha}^2=\frac{10g}{7R}(1-cos\alpha)$$
 
 Sustituyendo en la ec. 1 cuando $$N=0$$, es decir cuando, la esfera abandona el borde, tenemos que:
 
