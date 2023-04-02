@@ -18,11 +18,7 @@ Es decir, funciones tal que la integral exista.
 ### Conceptos importantes de probabilidad
 
 
-La expresión para el **valor promedio** de un observable _A_ es:
-
-$$ <A> = \frac{<\psi|A|\psi>}{<\psi|\psi>} $$
-                  
-O bien:
+La expresión para el **valor esperado** o promedio de un observable _A_ es:
                                             
 $$ <A>_{\psi_n} := (\psi_n, \hat{A} \psi_n)=\int_{-\infty}^{\infty}\psi_n^*(x)\hat{A} \psi_n (x)dx $$
 
@@ -30,7 +26,7 @@ La **raíz de la desviación cuadrática media** caracteriza la dispersión de l
 
 $$\sigma [A]:=\sqrt{<A^2>-<A>^2} $$
 
-La **incertidumbre** \sigma^2 [A] de un observable A se mide con una *varianza*, y es el cuadrado de la desviación estándar:
+La **incertidumbre** $$\sigma^2 [A]$$ de un observable A se mide con una *varianza*, y es el cuadrado de la desviación estándar:
 
   $$\sigma^2 [A]:=Var[A]$$
   
@@ -55,5 +51,24 @@ Se tiene que:
 - $$c(\^{A})\psi : \equiv c(\^{A}\psi$$
 
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
+  
+Los operadores más importantes en mecánica cuántica son:
+  
+{: .nota-title }
+> Operador posición:
+>  
+>
+$$ <x>_\psi = (\psi, \hat{x} \psi = x \psi$$
+  
+{: .nota-title }
+> Operador momento:
+>  
+>
+$$ <p>_\psi = (\psi, \hat{p} \psi = -i\hbar \frac{\partial \psi}{\partial x}$$
 
+{: .nota-title }
+> Operador energía cinética:
+>  
+>
+$$ \hat{k}\psi = frac{1}{2m}\hat{p}^2$$
 
