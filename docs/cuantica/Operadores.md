@@ -70,5 +70,5 @@ $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 > Operador energía cinética:
 >  
 >
-$$ \hat{k}\psi = frac{1}{2m} \hat{p}^2$$
+$$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
 
