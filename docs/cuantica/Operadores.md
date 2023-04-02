@@ -54,21 +54,16 @@ Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pu
   
 Los operadores más importantes en mecánica cuántica son:
   
-{: .nota-title }
-> Operador posición:
->  
->
+**Operador posición:**
+
 $$ <x>_\psi = (\psi, \hat{x} \psi) = x \psi$$
   
-{: .nota-title }
-> Operador momento:
->  
->
+
+**Operador momento:**
+
 $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 
-{: .nota-title }
-> Operador energía cinética:
->  
->
+**Operador energía cinética:**
+
 $$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
 
