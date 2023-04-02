@@ -64,11 +64,11 @@ $$ <x>_\psi = (\psi, \hat{x} \psi = x \psi$$
 > Operador momento:
 >  
 >
-$$ <p>_\psi = (\psi, \hat{p} \psi = -i\hbar \frac{\partial \psi}{\partial x}$$
+$$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 
 {: .nota-title }
 > Operador energía cinética:
 >  
 >
-$$ \hat{k}\psi = frac{1}{2m}\hat{p}^2$$
+$$ \hat{k}\psi = frac{1}{2m} \hat{p}^2$$
 
