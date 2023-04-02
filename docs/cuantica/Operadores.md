@@ -28,13 +28,19 @@ $$ <A>_{\psi_n} = (\psi_n, \hat{A} \psi_n)=\int_{-\infty}^{\infty}\psi_n^*(x)\ha
 
 La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno al valor promedio $$<A>$$, mientras más alta sea, indica que los valores están dispersos en un rango más amplio.
 
-$$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
+$$\sigma [A]=\sqrt{<A^2>-<A>^2} $$
 
 Para un estimador insesgado, la RDCM es la desviación estándar. 
 
-La incertidumbre de un observable A se mide con una varianza, la cual es:
+La incertidumbre de un observable A se mide con una varianza, la cual es el cuadrado del valor presentado justo arriba:
+
+  $$\sigma^2 [A] = Var[A]$$
+  
+Es decir:
   
   $$Var[A]_{\psi_n}:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+
+
   
 ## Operadores lineales
 
