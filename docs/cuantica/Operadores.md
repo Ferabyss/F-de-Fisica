@@ -42,7 +42,7 @@ Las variales dinámicas(psición, momento, etc.) tienen un operador asociado que
 >
 Espacio vectorial toplógico donde todas las sucesiones de Cauchy son convergentes.
 
-Sea $$U$$ el conjunto de operadores lineales que van del espacio de Hilbert al espacio de Hilbert. Y dados dos operadores $$\hat{A}$$ y $$\hat{B}$$
+Sea $$U$$ el conjunto de operadores lineales que van del espacio de Hilbert al espacio de Hilbert. Y dados dos operadores $$\hat{A}, \hat{B} \in U$$
 Se tiene que:
 
 - $$(\^{A} + \^{B})\psi : \equiv \^{A} \psi + \^{B} \psi $$
