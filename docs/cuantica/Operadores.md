@@ -24,15 +24,15 @@ $$ <A> = \frac{<\psi|A|\psi>}{<\psi|\psi>} $$
                   
 O bien:
                                             
-$$ <A>_{\psi_n} = (\psi_n, \hat{A} \psi_n)=\int_{-\infty}^{\infty}\psi_n^*(x)\hat{A} \psi_n (x)dx $$
+$$ <A>_{\psi_n} := (\psi_n, \hat{A} \psi_n)=\int_{-\infty}^{\infty}\psi_n^*(x)\hat{A} \psi_n (x)dx $$
 
 La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno al valor promedio $$<A>$$, mientras más alta sea, indica que los valores están dispersos en un rango más amplio. Para un estimador insesgado, la RDCM es la desviación estándar. 
 
-$$\sigma [A]=\sqrt{<A^2>-<A>^2} $$
+$$\sigma [A]:=\sqrt{<A^2>-<A>^2} $$
 
 La **incertidumbre** de un observable A se mide con una *varianza*, la cual es el cuadrado del valor presentado justo arriba:
 
-  $$\sigma^2 [A] = Var[A]$$
+  $$Var[A]:=\sigma^2 [A]$$
   
 Es decir:
   
