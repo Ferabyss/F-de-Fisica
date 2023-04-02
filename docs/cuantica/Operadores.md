@@ -19,11 +19,11 @@ Es decir, funciones tal que la integral exista.
 
 La expresión para el valor promedio de un observable _A_ es:
 
-$$ <A> = \fracc{<\psi|A|\psi>}{/<\psi|\psi} $$
+$$ <A> = \frac{<\psi|A|\psi>}{/<\psi|\psi} $$
                   
 O bien:
                                             
-$$ <A>_{\psi_n} =\int_{-\infty}^{\infty}\psi_n(x)^*\hat{A} \psi_n (x)dx $$
+$$ <A>_{\psi_n} =\int_{-\infty}^{\infty}\psi_n^*(x)\hat{A} \psi_n (x)dx $$
 
 La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno a $$<A>$$, mientras más alta indica que los valores están dispersos en un rango más amplio.
 
