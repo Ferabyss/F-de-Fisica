@@ -19,7 +19,7 @@ Es decir, funciones tal que la integral exista.
 
 La expresión para el valor promedio de un observable _A_ es:
 
-$$ <A> = \frac{<\psi|A|\psi>}{/<\psi|\psi} $$
+$$ <A> = \frac{<\psi|A|\psi>}{<\psi|\psi>} $$
                   
 O bien:
                                             
