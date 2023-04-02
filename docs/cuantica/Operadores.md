@@ -19,7 +19,8 @@ Es decir funciones tal que dicha integral exista.
 
 La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno a $$<A>$$, mientras más alta indica que los valores están dispersos en un rango más amplio.
 
-  $$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
+$$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
+
 Para un estimador insesgado, la RDCM es la raíz cuadrada de la varianza, conocida como desviación estándar. 
 
 
