@@ -14,9 +14,9 @@ Espacio vectorial toplógico donde todas las sucesiones de Cauchy son convergent
 ## Operadores lineales
 
 Las variales dinámicas tienen un operador asociado que opera en el espacio de Hilbert.
-Sea $$U$$ el conjunto de operadores lineales que van del espacio de Hilbert al espacio de Hilbert. Y dados dos operadores $$\hat{A} y \hat{B}$$
+Sea $$U$$ el conjunto de operadores lineales que van del espacio de Hilbert al espacio de Hilbert. Y dados dos operadores $$\hat{A}$$ y $$\hat{B}$$
 Se tiene que:
 
-- (\^{A} + \^{B})\psi : \equiv \^{A} \psi + \^{B} \psi 
-- c(\^{A})\psi : \equiv c(\^{A}\psi
+- $$(\^{A} + \^{B})\psi : \equiv \^{A} \psi + \^{B} \psi $$
+- $$c(\^{A})\psi : \equiv c(\^{A}\psi$$
 
