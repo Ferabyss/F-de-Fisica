@@ -6,10 +6,14 @@ parent: Mecánica Cuántica
 # Operadores
 
 Para poder asignar una interpretación probabilística a la mecánica cuántica se opera siempre con **funciones cuadrado integrables**.
+
 De modo que para toda \psi(r,t)
 
-$$\int_{{-\infty}^\infty}|\psi(r,t)|^2 $$  
-$$\int_{\mathbb {R} ^{3}}~|\psi |^{2}dV$$
+$$\int_{\mathbb {R} ^{3}}~|\psi |^{2}dV < \infty$$
+
+Es decir funciones tal que dicha integral exista.
+
+
 ## Operadores lineales
 
 Las variales dinámicas(psición, momento, etc.) tienen un operador asociado que opera en el espacio de Hilbert.
