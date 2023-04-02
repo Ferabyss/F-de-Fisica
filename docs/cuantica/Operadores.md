@@ -8,7 +8,7 @@ parent: Mecánica Cuántica
 Para poder asignar una interpretación probabilística a la mecánica cuántica se opera siempre con **funciones cuadrado integrables**.
 De modo que para toda \psi(r,t)
 
-$$\int_{-\infty}^\infty}|\psi(r,t)|^2 $$  
+$$\int_{{-\infty}^\infty}|\psi(r,t)|^2 $$  
 $$\int_{\mathbb {R} ^{3}}~|\psi |^{2}dV$$
 ## Operadores lineales
 
