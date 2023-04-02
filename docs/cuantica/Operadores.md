@@ -58,7 +58,7 @@ Los operadores más importantes en mecánica cuántica son:
 > Operador posición:
 >  
 >
-$$ <x>_\psi = (\psi, \hat{x} \psi = x \psi$$
+$$ <x>_\psi = (\psi, \hat{x} \psi) = x \psi$$
   
 {: .nota-title }
 > Operador momento:
