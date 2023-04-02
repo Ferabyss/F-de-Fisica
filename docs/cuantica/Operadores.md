@@ -3,15 +3,24 @@ title: Operadores Hermitianos
 layout: default
 parent: Mecánica Cuántica
 ---
-# Operadores
+# Operadores Hermitianos
+
+## Preliminares
 
 Para poder asignar una interpretación probabilística a la mecánica cuántica se opera siempre con **funciones cuadrado integrables**.
 
-De modo que para toda $$\psi (r,t)$$
+De modo que para toda $$\psi (r,t)$$ se cumpla que:
 
 $$\int_{\mathbb {R} ^{3}}~|\psi |^{2}dV < \infty$$
 
 Es decir funciones tal que dicha integral exista.
+
+### Conceptos importantes de probabilidad
+
+La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno a $$<A>$$, mientras más alta indica que los valores están dispersos en un rango más amplio.
+
+  $$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
+Para un estimador insesgado, la RDCM es la raíz cuadrada de la varianza, conocida como desviación estándar. 
 
 
 ## Operadores lineales
