@@ -32,7 +32,10 @@ $$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
 
 Para un estimador insesgado, la RDCM es la desviación estándar. 
 
-
+La incertidumbre de un observable A se mide con una varianza, la cual es:
+  
+  $$Var[A]_{\psi_n}:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+  
 ## Operadores lineales
 
 Las variales dinámicas(psición, momento, etc.) tienen un operador asociado que opera en el espacio de Hilbert.
