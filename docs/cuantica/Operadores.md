@@ -30,13 +30,13 @@ La **raíz de la desviación cuadrática media** caracteriza la dispersión de l
 
 $$\sigma [A]:=\sqrt{<A^2>-<A>^2} $$
 
-La **incertidumbre** de un observable A se mide con una *varianza*, la cual es el cuadrado del valor presentado justo arriba:
+La **incertidumbre** \sigma^2 [A] de un observable A se mide con una *varianza*, y es el cuadrado de la desviación estándar:
 
-  $$Var[A]:=\sigma^2 [A]$$
+  $$\sigma^2 [A]:=Var[A]$$
   
 Es decir:
   
-  $$Var[A]_{\psi_n}:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+  $$\sigma^2 [A]:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
 
 ## Operadores lineales
 
