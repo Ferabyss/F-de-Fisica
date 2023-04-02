@@ -13,15 +13,23 @@ De modo que para toda $$\psi (r,t)$$ se cumpla que:
 
 $$\int_{\mathbb {R} ^{3}}~|\psi |^{2}dV < \infty$$
 
-Es decir funciones tal que dicha integral exista.
+Es decir, funciones tal que la integral exista.
 
 ### Conceptos importantes de probabilidad
+
+La expresión para el valor promedio de un observable _A_ es:
+
+$$ <A> = \fracc{<\psi|A|\psi>}{/<\psi|\psi} $$
+                  
+O bien:
+                                            
+$$ <A>_\psi_n =\int_{-\infty}^{\infty}\psi_n(x)^*\hat{A} \psi_n(x)dx $$
 
 La **raíz de la desviación cuadrática media** caracteriza la dispersión de la medición en torno a $$<A>$$, mientras más alta indica que los valores están dispersos en un rango más amplio.
 
 $$\sigma [x]=\sqrt{<x^2>-<x>^2} $$
 
-Para un estimador insesgado, la RDCM es la raíz cuadrada de la varianza, conocida como desviación estándar. 
+Para un estimador insesgado, la RDCM es la desviación estándar. 
 
 
 ## Operadores lineales
