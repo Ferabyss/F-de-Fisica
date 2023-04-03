@@ -58,20 +58,23 @@ Los operadores básicos en mecánica cuántica son:
 
 $$ <x>_\psi = (\psi, \hat{x} \psi) = x \psi$$
   
-1. **Operador momento:**
+2. **Operador momento:**
 
 $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 
-1. **Operador energía cinética:**
+3. **Operador energía cinética:**
 
 $$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
 
 Podemos definir al **operador Hamiltoniano** como $$\hat{H}:= \hat{K} + \hat{V}$$
 Es decir, el operador cuántico asociado a la energía es el Hamiltoniano. De modo que:
+  
   $$ \hat{H} \psi = E \psi$$
+  
+Es decir:  
   
   $$E =(\psi, \hat{H}\psi)$$
 
-  1. **Operador energía **
-  $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
- 
+4. **Operador energía **
+$$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
+
