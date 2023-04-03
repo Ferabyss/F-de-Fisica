@@ -114,6 +114,6 @@ Cada operador cuántico tiene cierta incertidumbre que varía de manera distinta
   
   Por lo que, al multiplicar ambos tenemos que:
   
-   $$\Delta X_{\psi_n}\Delta P_{\psi_n}= \frac{\hbar}{2}\sqrt{frac{n^2\pi^2}{3}-2}>\frac{\hbar}{2}$$
+   $$\Delta X_{\psi_n}\Delta P_{\psi_n}= \frac{\hbar}{2}\sqrt{\frac{n^2\pi^2}{3}-2}>\frac{\hbar}{2}$$
 
 
