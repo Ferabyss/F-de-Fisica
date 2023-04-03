@@ -108,12 +108,12 @@ Podemos definir al **operador Hamiltoniano** como el operador asociado a la ener
 
 Cada operador cuántico tiene cierta incertidumbre que varía de manera distinta. A continuación se muestran las incertidumbres de la posición y del momento, calculados a partir de la definición de varianza.
   
- $$\DeltaX_{\psi_n}= L \sqrt{\frac{1}{12}-\frac{1}{2n^2\pi^2}}$$
+ $$\Delta X_{\psi_n}= L \sqrt{\frac{1}{12}-\frac{1}{2n^2\pi^2}}$$
  
- $$\DeltaP_{\psi_n}= frac{\pi\hbar}{L}n}$$
+ $$\Delta P_{\psi_n}= frac{\pi\hbar}{L}n}$$
   
   Por lo que, al multiplicar ambos tenemos que:
   
-   $$\DeltaX_{\psi_n}\DeltaP_{\psi_n}= \frac{\hbar}{2}\sqrt{frac{n^2\pi^2}{3}-2}>\frac{\hbar}{2}$$
+   $$\Delta X_{\psi_n}\DeltaP_{\psi_n}= \frac{\hbar}{2}\sqrt{frac{n^2\pi^2}{3}-2}>\frac{\hbar}{2}$$
 
 
