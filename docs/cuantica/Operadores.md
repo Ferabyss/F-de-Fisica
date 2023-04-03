@@ -60,7 +60,7 @@ El cual es el valor esperado del operador $$\hat{A}$$ en el estado $$\psi$$.
   
 El operador adjunto está definido como:
   
-   $$(\psi, \hat{A}^\dag\Phi)=( \hat{A}^\dag\psi,\Phi)$$
+   $$(\psi, \hat{A}^\dag \phi)=( \hat{A}^\dag \psi,\phi)$$
   
 El operador $$\hat{A}$$ se le dice *Hermitiano* cuando: 
   
