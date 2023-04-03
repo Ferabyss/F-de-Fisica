@@ -75,6 +75,7 @@ Es decir:
   
   $$E =(\psi, \hat{H}\psi)$$
 
-4. **Operador energía **
+4. **Operador energía: **
+  
 $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
 
