@@ -53,6 +53,7 @@ Se tiene que:
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
   
 Para cualquier operador se cumple que:  
+  
 $$<A>_\psi = (\psi, \hat{A} \psi) = \hat{A} \psi$$
   
 Los operadores básicos en mecánica cuántica son:
@@ -63,6 +64,7 @@ Los operadores básicos en mecánica cuántica son:
 4. **Operador energía potencial: $$\hat{V} = \sum_{n=0}^{\infty} \frac{\hat{x}^n}{n!} $$
   
 Por la ecuación de schrodinger: 
+  
    $$ \hat{H} \psi = E \psi$$
 
 De donde:  
@@ -74,7 +76,8 @@ De donde:
 >
 >
 Podemos definir al **operador Hamiltoniano** como el operador asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$ tal que:
-$$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
+
+  $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
 
   
 
