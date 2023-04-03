@@ -66,8 +66,7 @@ $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 
 $$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
 
-Podemos definir al **operador Hamiltoniano** como $$\hat{H}:= \hat{K} + \hat{V}$$
-Es decir, el operador cuántico asociado a la energía es el Hamiltoniano. De modo que:
+Podemos definir al **operador Hamiltoniano** como el operador cuántico asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$. De otro modo:
   
   $$ \hat{H} \psi = E \psi$$
   
