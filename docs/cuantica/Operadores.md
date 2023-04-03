@@ -54,8 +54,13 @@ Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pu
   
 Para cualquier operador se cumple que:  
   
-$$<A>_\psi = (\psi, \hat{A} \psi) = \hat{A} \psi$$
+$$<A>_\psi = (\psi, \hat{A}\psi) = \hat{A}\psi$$
   
+El cual es el valor esperado del operador $$\hat{A}$$ en el estado $$\psi$$.
+  
+El operador adjunto está definido como:
+  
+   $$(\psi, \hat{A}\Rho)=( \hat{A}\psi,\Rho)$$
 Los operadores básicos en mecánica cuántica son:
   
 - **Operador posición:**           
@@ -74,13 +79,6 @@ Los operadores básicos en mecánica cuántica son:
   
   $$\hat{V} = \sum_{n=0}^{\infty} \frac{\hat{x}^n}{n!} $$
   
-Por la ecuación de schrodinger: 
-  
-   $$ \hat{H} \psi = E \psi$$
-
-De donde:  
-  
-  $$E =(\psi, \hat{H}\psi)$$
   
 {: .nota-title }
 > Operador energía:
@@ -89,5 +87,13 @@ De donde:
 Podemos definir al **operador Hamiltoniano** como el operador asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$ tal que:
   $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
 
+Por la ecuación de schrodinger: 
   
+   $$ \hat{H} \psi = E \psi$$
+
+De donde:  
+  
+  $$E =(\psi, \hat{H}\psi)$$
+  
+
 
