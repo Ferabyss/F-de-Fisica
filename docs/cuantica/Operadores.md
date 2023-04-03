@@ -60,7 +60,12 @@ El cual es el valor esperado del operador $$\hat{A}$$ en el estado $$\psi$$.
   
 El operador adjunto está definido como:
   
-   $$(\psi, \hat{A}\Rho)=( \hat{A}\psi,\Rho)$$
+   $$(\psi, \hat{A}^\dag\Phi)=( \hat{A}^\dag\psi,\Phi)$$
+  
+El operador $$\hat{A}$$ se le dice *Hermitiano* cuando: 
+  
+  $$(\psi, \hat{A}\psi)=( \hat{A}\psi,\psi)$$
+  
 Los operadores básicos en mecánica cuántica son:
   
 - **Operador posición:**           
