@@ -62,11 +62,19 @@ El operador adjunto está definido como:
   
    $$(\psi, \hat{A}^\dag \phi)=( \hat{A}^\dag \psi,\phi)$$
   
-El operador $$\hat{A}$$ se le dice *Hermitiano* cuando: 
+El operador $$\hat{A}$$ se le dice **Hermitiano** cuando: 
   
   $$(\psi, \hat{A}\psi)=( \hat{A}\psi,\psi)$$
+ 
+Los operadores asociados a variables dinámicas deben ser hermitianos. Tanto la suma de operadores como la enésima potencia de un operador hermitiano son hermitianos.
   
-Los operadores básicos en mecánica cuántica son:
+  $$\hat{A}+\hat{B}$$ y $$\hat{A}^n$$ hermitianos
+  
+{: .nota-title }
+> Teorema 1:
+>
+>
+Los eigenvalores de un operador hermitiano son reales. Es decir: Sea $$\hat{A}$$ hermitiano tal que $$\hat{A}\phi=a\phi \implies a=a*$$
   
 - **Operador posición:**           
 
