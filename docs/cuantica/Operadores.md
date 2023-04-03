@@ -52,18 +52,21 @@ Se tiene que:
 
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
   
-Los operadores más importantes en mecánica cuántica son:
+Los operadores básicos en mecánica cuántica son:
   
-**Operador posición:**
+1. **Operador posición:**
 
 $$ <x>_\psi = (\psi, \hat{x} \psi) = x \psi$$
   
-
-**Operador momento:**
+1. **Operador momento:**
 
 $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
 
-**Operador energía cinética:**
+1. **Operador energía cinética:**
 
 $$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
 
+El operador cuántico asociado a la energía es el Hamiltoniano. De modo que:
+  $$ \hat{H} \psi = E \psi$$
+  $$E =(\psi, \hat{H}\psi)$$
+ 
