@@ -26,13 +26,15 @@ La **raíz de la desviación cuadrática media** caracteriza la dispersión de l
 
 $$\sigma [A]:=\sqrt{<A^2>-<A>^2} $$
 
-La **incertidumbre** $$\sigma^2 [A]$$ de un observable A se mide con una *varianza*, y es el cuadrado de la desviación estándar:
+La **incertidumbre** $$\Delta[A]$$ de un observable A se obtiene con la raiz cuadrada de la *varianza*, la cual es la desviación estándar:
 
-  $$\sigma^2 [A]:=Var[A]$$
+  $$Var[A]:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+  
+  $$\Delta[A] = \sqrt{<A^2>-<A>^2}$$
   
 Es decir:
   
-  $$\sigma^2 [A]:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+  
 
 ## Operadores lineales
 
@@ -105,13 +107,10 @@ Los eigenvectores $$\psi,\phi$$ correspondientes a eigenvalores distintos de un 
 Podemos definir al **operador Hamiltoniano** como el operador asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$ tal que:
   $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
 
-Por la ecuación de schrodinger: 
+Cada operador cuántico tiene cierta incertidumbre que varía de manera distinta. A continuación se muestran las incertidumbres de la posición y del momento, calculados a partir de la definición de varianza.
   
-   $$ \hat{H} \psi = E \psi$$
-
-De donde:  
-  
-  $$E =(\psi, \hat{H}\psi)$$
-  
+ $$\DeltaX_{\psi_n}= L \sqrt{\frac{1}{12}-\frac{1}{2n^2\pi^2}}$$
+ 
+ $$\DeltaP_{\psi_n}= frac{n\hbar}{L}n}$$
 
 
