@@ -26,14 +26,13 @@ La **raíz de la desviación cuadrática media** caracteriza la dispersión de l
 
 $$\sigma [A]:=\sqrt{<A^2>-<A>^2} $$
 
-La **incertidumbre** $$\Delta[A]$$ de un observable A se obtiene con la raiz cuadrada de la *varianza*, la cual es la desviación estándar:
+La **varianza** es el cuadrado de $$\sigma[A]$$ es decir:
+  
+   $$Var[A]:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
+  
+Finalmente, la **incertidumbre** $$\Delta A$$ de un observable A es la raiz cuadrada de la *varianza*:
 
-  $$Var[A]:= <A^2>_{\psi_n} - <A>_{\psi_n}^2$$
-  
-  $$\Delta[A] = \sqrt{<A^2>-<A>^2}$$
-  
-Es decir:
-  
+  $$\Delta A = \sqrt{<A^2>-<A>^2}$$
   
 
 ## Operadores lineales
@@ -111,6 +110,10 @@ Cada operador cuántico tiene cierta incertidumbre que varía de manera distinta
   
  $$\DeltaX_{\psi_n}= L \sqrt{\frac{1}{12}-\frac{1}{2n^2\pi^2}}$$
  
- $$\DeltaP_{\psi_n}= frac{n\hbar}{L}n}$$
+ $$\DeltaP_{\psi_n}= frac{\pi\hbar}{L}n}$$
+  
+  Por lo que, al multiplicar ambos tenemos que:
+  
+   $$\DeltaX_{\psi_n}\DeltaP_{\psi_n}= \frac{\hbar}{2}\sqrt{frac{n^2\pi^2}{3}-2}>\frac{\hbar}{2}$$
 
 
