@@ -65,8 +65,10 @@ Podemos definir al **operador Hamiltoniano** como el operador cuántico asociado
 Es decir:  
   
   $$E =(\psi, \hat{H}\psi)$$
-
-4. **Operador energía: **
   
+{: .nota-title }
+> Operador energía:
+>
+>
 $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
 
