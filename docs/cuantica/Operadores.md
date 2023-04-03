@@ -110,7 +110,7 @@ Cada operador cuántico tiene cierta incertidumbre que varía de manera distinta
   
  $$\Delta X_{\psi_n}= L \sqrt{\frac{1}{12}-\frac{1}{2n^2\pi^2}}$$
  
- $$\Delta P_{\psi_n}= frac{\pi\hbar}{L}n}$$
+ $$\Delta P_{\psi_n} = \frac{\pi\hbar}{L}n}$$
   
   Por lo que, al multiplicar ambos tenemos que:
   
