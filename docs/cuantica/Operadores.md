@@ -52,17 +52,20 @@ Se tiene que:
 
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
   
+Para cualquier operador se cumple que:  
+<A>_\psi = (\psi, \hat{A} \psi) = \hat{A} \psi
+  
 Los operadores básicos en mecánica cuántica son:
   
-1. **Operador posición:** $$ <x>_\psi = (\psi, \hat{x} \psi) = x \psi$$
-2. **Operador momento:** $$ <p>_\psi = (\psi, \hat{p} \psi) = -i\hbar \frac{\partial \psi}{\partial x}$$
-3. **Operador energía cinética:** $$ \hat{k}\psi = \frac{1}{2m} \hat{p}^2$$
+1. **Operador posición:** $$  \hat{x} \psi = x \psi$$
+2. **Operador momento:** $$ \hat{p} \psi = -i\hbar \frac{\partial \psi}{\partial x}$$
+3. **Operador energía cinética:** $$ \hat{K}\psi = \frac{1}{2m} \hat{p}^2\psi$$
+4. **Operador energía potencial: $$\hat{V}= \[ \sum_{n=0}^{\infty} frac{\hat{x}^n}{n!}\]$$
+  
+Por la ecuación de schrodinger: 
+   $$ \hat{H} \psi = E \psi$$
 
-Podemos definir al **operador Hamiltoniano** como el operador cuántico asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$. De otro modo:
-  
-  $$ \hat{H} \psi = E \psi$$
-  
-Es decir:  
+De donde:  
   
   $$E =(\psi, \hat{H}\psi)$$
   
@@ -70,5 +73,8 @@ Es decir:
 > Operador energía:
 >
 >
+Podemos definir al **operador Hamiltoniano** como el operador asociado a la energía $$\hat{H}:= \hat{K} + \hat{V}$$ tal que:
 $$\hat{H}=i\hbar \frac{\partial \psi}{\partial t} (r,t)$$
+
+  
 
