@@ -75,6 +75,12 @@ Los operadores asociados a variables dinámicas deben ser hermitianos. Tanto la 
 >
 Los eigenvalores de cualquier operador hermitiano son reales. En otras palabras: Sea $$\hat{A}$$ hermitiano se tiene que $$\hat{A}\phi=a\phi \implies a=a*$$
   
+ {: .nota-title }
+> Teorema 2:
+>
+>
+Los eigenvectores $$\psi,\phi$$ correspondientes a eigenvalores distintos de un operador hermitiano son ortogonales. Es decir, $$\psi \perp \phi$$
+  
 - **Operador posición:**           
 
   $$  \hat{X} \psi = x \psi$$
