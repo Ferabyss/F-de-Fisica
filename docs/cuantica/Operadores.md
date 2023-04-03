@@ -73,7 +73,7 @@ Los operadores asociados a variables dinámicas deben ser hermitianos. Tanto la 
 > Teorema 1:
 >
 >
-Los eigenvalores de cualquier operador hermitiano son reales. En otras palabras: Sea $$\hat{A}$$ hermitiano tal que $$\hat{A}\phi=a\phi \implies a=a*$$
+Los eigenvalores de cualquier operador hermitiano son reales. En otras palabras: Sea $$\hat{A}$$ hermitiano se tiene que $$\hat{A}\phi=a\phi \implies a=a*$$
   
 - **Operador posición:**           
 
