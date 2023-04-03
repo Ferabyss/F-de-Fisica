@@ -48,7 +48,7 @@ Sea $$U$$ el conjunto de operadores lineales que van del espacio de Hilbert al e
 Se tiene que:
 
 - $$(\^{A} + \^{B})\psi : \equiv \^{A} \psi + \^{B} \psi $$
-- $$c(\^{A})\psi : \equiv c(\^{A}\psi$$
+- $$(c\^{A})\psi : \equiv c(\^{A}\psi)$$
 
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
   
