@@ -66,9 +66,8 @@ El operador $$\hat{A}$$ se le dice **Hermitiano** cuando:
   
   $$(\psi, \hat{A}\psi)=( \hat{A}\psi,\psi)$$
  
-Los operadores asociados a variables dinámicas deben ser hermitianos. Tanto la suma de operadores como la enésima potencia de un operador hermitiano son hermitianos.
+Los operadores asociados a variables dinámicas deben ser hermitianos. Tanto la suma de operadores hermitianos $$\hat{A}+\hat{B}$$ como la enésima potencia de un operador hermitiano $$\hat{A}^n$$, son hermitianos.
   
-  $$\hat{A}+\hat{B}$$ y $$\hat{A}^n$$ hermitianos
   
 {: .nota-title }
 > Teorema 1:
