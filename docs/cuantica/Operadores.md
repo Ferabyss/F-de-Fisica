@@ -53,7 +53,7 @@ Se tiene que:
 Los operadores lineales no son siempre acotados, i.e. hay veces en las que se pueden salir del espacio, sin embargo, nos limitaremos a trabajar con aquellos que si están acotados.
   
 Para cualquier operador se cumple que:  
-<A>_\psi = (\psi, \hat{A} \psi) = \hat{A} \psi
+$$<A>_\psi = (\psi, \hat{A} \psi) = \hat{A} \psi$$
   
 Los operadores básicos en mecánica cuántica son:
   
