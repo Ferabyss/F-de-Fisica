@@ -61,7 +61,7 @@ Los operadores básicos en mecánica cuántica son:
 1. **Operador posición:** $$  \hat{X} \psi = x \psi$$
 2. **Operador momento:** $$ \hat{P} \psi = -i\hbar \frac{\partial \psi}{\partial x}$$
 3. **Operador energía cinética:** $$ \hat{K}\psi = \frac{1}{2m} \hat{P}^2\psi$$
-4. **Operador energía potencial: $$\hat{V} = \sum_{n=0}^{\infty} \frac{\hat{x}^n}{n!} $$
+4. **Operador energía potencial:** $$\hat{V} = \sum_{n=0}^{\infty} \frac{\hat{x}^n}{n!} $$
   
 Por la ecuación de schrodinger: 
   
