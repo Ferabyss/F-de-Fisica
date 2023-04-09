@@ -10,15 +10,7 @@
     margin: 1em;
   }
 }
-@media blockquote {
-  margin: 1px 0;
 
-  // resets user-agent stylesheets for blockquotes
-  margin-block-start: 0;
-  margin-inline-start: 0;
-  padding-left: 2px;
-  border-left: 3px solid $border-color;
-}
 @media img {
   max-width: 100%;
   height: auto;
