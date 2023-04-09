@@ -6,6 +6,8 @@ logo: "/assets/images/logo3.png"
 favicon_ico: "/assets/images/icon1.png"
 
 math: katex
+
+color_scheme: foo
   
 callouts:
   nota:
