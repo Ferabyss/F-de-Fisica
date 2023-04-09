@@ -6,9 +6,6 @@
     border-left: 0 !important;
   }
   
-}
-@media layout {
-  
 @include mq(md) {
     flex-flow: column nowrap;
     position: fixed;
