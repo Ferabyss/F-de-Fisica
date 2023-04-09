@@ -1,9 +1,3 @@
-$content-width: 1000px;
+$content-width: 75%;
 
-$media-queries: (
-  xs: 320px,
-  sm: 500px,
-  md: $content-width,
-  lg: $content-width + $nav-width,
-  xl: 1400px,
-) !default;
+
