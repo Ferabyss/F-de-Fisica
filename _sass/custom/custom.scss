@@ -1,8 +1,9 @@
 // Print-only styles.
 @media print {
-  .side-bar,
-  .page-header {
-    display: none;
+  .side-bar {
+    width: 50%;
+    height: auto;
+    border-left: 0 !important;
   }
   .main-content {
     max-width: auto;
