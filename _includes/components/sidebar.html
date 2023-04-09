@@ -2,7 +2,7 @@
   <div class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
     <a href="#" id="menu-button" class="site-button">
-      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      <svg viewBox="0 0 30 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
     </a>
   </div>
   <nav aria-label="Main" id="site-nav" class="site-nav">
@@ -20,7 +20,7 @@
           <li class="nav-list-item external">
             <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
               {{ node.title }}
-              {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
+              {% unless node.hide_icon %}<svg viewBox="0 0 30 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
             </a>
           </li>
         {%- endfor -%}
@@ -38,7 +38,7 @@
               <ul class="nav-list nav-category-list">
                 <li class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
                   {%- if collection.size > 0 -%}
-                  <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+                  <a href="#" class="nav-list-expander"><svg viewBox="0 0 30 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
                   {%- endif -%}
                   <div class="nav-category">{{ collection_value.name }}</div>
                   {% include nav.html pages=collection key=collection_key %}
