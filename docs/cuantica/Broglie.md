@@ -1,7 +1,7 @@
 ---
 title: Bohr y Broglie
 layout: default
-justify-content: space-around
+margin: auto
 parent: Mecánica Cuántica
 ---
 # Bohr
