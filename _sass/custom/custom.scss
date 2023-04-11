@@ -1,4 +1,6 @@
 // _sass/custom/custom.scss
+// _sass/custom/custom.scss
+
 .side-bar {
   @include mq(lg) {
     width: $nav-width;
@@ -7,12 +9,9 @@
 }
 
 .main{
- @include mq(lg) {
-    margin-left: Max(
-      #{$nav-width},
-      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
-    );
-  }
-
+  @include mq(lg) {
+        margin-left: calc( $nav-width + 30px);
+        margin-right: 30px;
+        max-width: none;
 }
 
