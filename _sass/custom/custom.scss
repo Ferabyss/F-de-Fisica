@@ -1,17 +1,8 @@
 // Print-only styles.
-@media print {
-  .side-bar {
-    width: 100%;
-    height: auto;
-    border-left: 0 !important;
-  }
-  
-@include mq(md) {
-    flex-flow: column nowrap;
-    position: fixed;
-    width: $nav-width-md;
-    height: 100%;
-    border-right: 0px $border-color;
-    justify-content: space-around;
+// _sass/custom/custom.scss
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width;
+    min-width: $nav-width;
   }
 }
