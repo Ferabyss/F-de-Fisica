@@ -8,7 +8,7 @@ favicon_ico: "/assets/images/icon1.png"
 math: katex
 
 color_scheme: foo
-custom: custom
+
   
 callouts:
   nota:
