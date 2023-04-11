@@ -6,4 +6,9 @@
     min-width: $nav-width;
   }
 }
+.main{
+  @include mq(lg) {
+    margin-left: calc( (100% - 264px - $content-width ) / 2 + 264px);
+  }
+}
 
