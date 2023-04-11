@@ -8,8 +8,8 @@
 
 .main{
   @include mq(lg) {
-        margin-left: calc(264px + 5%);
-        margin-right: 5%;
+        margin-left: calc(264px + 30px);
+        margin-right: 30px;
         max-width: 1920px;
   }
 }
