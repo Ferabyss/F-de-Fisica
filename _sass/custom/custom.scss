@@ -6,3 +6,8 @@
     min-width: $nav-width;
   }
 }
+.main{
+  @include mq(lg) {
+    margin-left: $nav-width;
+  }
+}
