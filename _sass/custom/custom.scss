@@ -8,9 +8,10 @@
 }
 .main{
   @include mq(lg) {
-    margin-left: calc( 264px + 30px);
-    margin-right: 30px;
-    max-width: none;
+     margin-left: Max(
+      #{$nav-width},
+      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+    
   }
 }
 
