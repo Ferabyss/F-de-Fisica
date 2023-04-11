@@ -8,9 +8,14 @@
 }
 
 .main{
-  @include mq(lg) {
-     margin-left: Max($nav-width, calc((100% - $nav-width - $content-width) / 2 + $nav-width);
-    
+ @include mq(lg) {
+    // stylelint-disable function-name-case
+    // disable for Max(), we want to use the CSS max() function
+    margin-left: Max(
+      #{$nav-width},
+      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+    );
+    // stylelint-enable function-name-case
   }
 }
 
