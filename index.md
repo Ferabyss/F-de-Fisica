@@ -12,7 +12,7 @@ Este proyecto nace como respuesta a la falta de páginas en español que cubran 
 - Relatividad Especial
 - Mecánica Cuántica
 
-[Git-Hub]: https://github.com/Ferabyss
+
 
 #Acerca de los creadores
 
@@ -23,5 +23,6 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
 
 Mis redes sociales son:
  [Linkedin]: [https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/]
+ [Git-Hub]: [https://github.com/Ferabyss]
  
  
