@@ -27,7 +27,8 @@ Este proyecto nace como respuesta a la falta de páginas en español que cubran 
 Mi pasión por la física y en especial la cosmología, me impulsa a explorar la materia oscura, la formación de estructura y el universo temprano.
 
 Mis redes sociales son:
- [Linkedin](https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/)
- [Git-Hub](https://github.com/Ferabyss)
+- [Linkedin](https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/)
+- [Git-Hub](https://github.com/Ferabyss)
+ 
  
  
