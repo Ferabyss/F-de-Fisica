@@ -21,8 +21,7 @@ Este proyecto nace como respuesta a la falta de páginas en español que cubran 
 <style type="text/css">
   p {
      .justify{
-      text-align: justify;
-}
+      text-align: justify;}
   }
  </style>
 
