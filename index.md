@@ -34,11 +34,11 @@ Mis redes sociales son:
 - [Linkedin](https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/)
 - [Git-Hub](https://github.com/Ferabyss)
  
--[Instagram](https://instagram.com/Ferabyss)
+- [Instagram](https://instagram.com/Ferabyss)
  
--[YouTube](https://YouTube.com/Ferabyss)
+- [YouTube](https://YouTube.com/Ferabyss)
  
--[TikTok](https://tiktok.com/Ferabyss)
+- [TikTok](https://tiktok.com/Ferabyss)
  
  
  
