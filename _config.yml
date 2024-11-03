@@ -1,13 +1,14 @@
 title: F de Física
 description: Hola
 theme: just-the-docs
+color_scheme: foo
+
 
 logo: "/assets/images/logo3.png"
 favicon_ico: "/assets/images/icon1.png"
 
 math: katex
 
-color_scheme: foo
 
   
 callouts:
