@@ -1,3 +1,5 @@
 //$content-width: 1000px;
 //$search-results-width: $content-width - $nav-width 
-$color_scheme: dark
+@import "./color_schemes/dark";
+$link-color: $red-000;
+
