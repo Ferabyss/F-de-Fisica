@@ -1,3 +1,9 @@
+---
+title: Capitulo 3 Analisis Tensorial
+layout: default
+parent: Relatividad General
+---
+
 # Un curso de <br> RELATIVIDAD GENERAL <br> 7 mo semestre de Licenciatura 
 
 ## Por: <br> María Fernanda Martínez Vázquez
