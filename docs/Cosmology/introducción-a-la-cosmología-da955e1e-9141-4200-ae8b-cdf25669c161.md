@@ -1,3 +1,10 @@
+---
+title: Introducción
+layout: default
+margin: auto
+parent: Cosmologia
+---
+
 # Introducción a la Cosmología
 
 ## 1. Introducción
