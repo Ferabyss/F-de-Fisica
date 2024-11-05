@@ -29,7 +29,7 @@ Mis redes sociales son:
  
 - [Instagram](https://instagram.com/Ferabyss)
  
-- [YouTube](https://YouTube.com/Ferabyss)
+- [YouTube](https://youtube.com/@ferabyss)
  
 - [TikTok](https://tiktok.com/Ferabyss)
  
