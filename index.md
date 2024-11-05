@@ -35,4 +35,4 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
 - [YouTube](https://youtube.com/@ferabyss)
  
 - [TikTok](https://www.tiktok.com/@ferabyss)
-- [Twitter] (https://x.com/ferabyss?t=e3DKytwA89WyTC0ZnDISKQ&s=09)
+- [Twitter] (https://x.com/ferabyss)
