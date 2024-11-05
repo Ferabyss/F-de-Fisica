@@ -6,3 +6,5 @@ has_children: true
 ---
 
 Hola
+
+<embed src="cuantica2.pdf" type="application/pdf" width="100%" height="600px" />
