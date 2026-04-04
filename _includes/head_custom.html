@@ -1,6 +1,17 @@
-{% assign math = page.math | default: layout.math | default: site.math %}
+<!-- {% assign math = page.math | default: layout.math | default: site.math %}
 
 {% case math %}
-  {% when "katex" %}
-    {% include katex.html %}
-{% endcase %}
+{% when "katex" %}
+  {% include katex.html %}
+{% endcase %} -->
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
