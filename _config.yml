@@ -2,7 +2,7 @@ title: F de Física
 description: Hola
 remote_theme: just-the-docs/just-the-docs@v0.6.2
 color_scheme: foo
-
+baseurl: "/F-de-Fisica"
 
 logo: "/assets/images/logo3.png"
 favicon_ico: "/assets/images/icon1.png"
