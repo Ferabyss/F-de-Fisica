@@ -1,6 +1,6 @@
 title: F de Física
 description: Hola
-theme: just-the-docs/just-the-docs@v0.6.2
+theme: just-the-docs
 color_scheme: foo
 baseurl: "/F-de-Fisica"
 url: "https://ferabyss.github.io"
