@@ -59,7 +59,7 @@ $$
 Toman un covector y producen un número.
 $\vec{V}(\tilde{P})$ sea un número
 DEF: $\vec{V}(\tilde{P})=\tilde{P}(\vec{V})=P_{\alpha} V^{\alpha}$
-Componentes: El vector actuando sobre los vectores base del EVD $\left\{\vec{\omega}^{\alpha}\right\}$
+Componentes: El vector actuando sobre los vectores base del EVD $\vec{\omega}^{\alpha}}$
 
 Tensores $\binom{3}{0}$ forman un espacio vectorial con dimensión 64.
 
