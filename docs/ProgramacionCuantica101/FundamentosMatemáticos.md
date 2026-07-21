@@ -2,16 +2,8 @@
 title: "Fundamentos Matemáticos de la Computación Cuántica"
 author: "Quantum Programming Notes"
 chapter: 2
-tags:
-- Quantum Computing
-- Linear Algebra
-- Dirac Notation
-- Bloch Sphere
-- Quantum States
-- IBM Quantum
 layout: default
 parent: Programación Cuántica 101
-
 ---
 
 # Fundamentos Matemáticos de la Computación Cuántica
