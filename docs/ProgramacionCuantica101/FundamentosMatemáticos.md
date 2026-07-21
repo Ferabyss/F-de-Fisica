@@ -10,7 +10,6 @@ tags:
 - Quantum States
 - IBM Quantum
 layout: default
-nav_order: 4
 parent: Programación Cuántica 101
 
 ---
