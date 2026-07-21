@@ -25,25 +25,14 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
 
 ## Mis redes sociales son:
 
-### Perfiles profesionales: Ciencia y Cosmología.
-- [Linkedin](https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/)
-- [Git-Hub](https://github.com/Ferabyss)
-
-### Perfiles Personales: Cuentas de dibujos.
-- [Instagram](https://instagram.com/Ferabyss)
- 
-- [YouTube](https://youtube.com/@ferabyss)
- 
-- [TikTok](https://www.tiktok.com/@ferabyss)
-- [Twitter](https://x.com/ferabyss)
 
 ### Perfiles profesionales: Ciencia y Cosmología.
 <a href="https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/" target="_blank" class="social-btn bg-linkedin" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
 <a href="https://github.com/Ferabyss" target="_blank" class="social-btn bg-github" title="GitHub"><i class="fa-brands fa-github"></i></a>
+<a href="https://youtube.com/@ferabyss" target="_blank" class="social-btn bg-youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
 
 ### Perfiles Personales: Cuentas de dibujos.
 <a href="https://instagram.com/Ferabyss" target="_blank" class="social-btn bg-instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-<a href="https://youtube.com/@ferabyss" target="_blank" class="social-btn bg-youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
 <a href="https://www.tiktok.com/@ferabyss" target="_blank" class="social-btn bg-tiktok" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
 <a href="https://x.com/ferabyss" target="_blank" class="social-btn bg-twitter" title="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
 
@@ -55,7 +44,7 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
 </p>
 
 <!-- Estilos e Íconos -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
 .social-btn {
   display: inline-flex;
@@ -84,8 +73,3 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
 .bg-tiktok { background: #000000; }
 .bg-twitter { background: #000000; }
 </style>
-
- <p><a href="https://www.buymeacoffee.com/Ferabyss"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Ferabyss" /></a></p><br><br>
- 
-
- 
