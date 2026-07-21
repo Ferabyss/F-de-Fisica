@@ -6,10 +6,6 @@ has_children: true
 ---
 
 
-
-title: "01 - Introducción a la Computación Cuántica"
-author: "Fernanda Martinez"
-
 # Introducción a la Computación Cuántica
 
 <div class="video-container">
@@ -24,26 +20,26 @@ author: "Fernanda Martinez"
 
 
 
-Quantum Programming Notes
+## Apuntes del curso Programación Cuántica 101 por Ferabyss
 =========================
 
-Prefacio
+### Índice 
 
-Capítulo 1. Introducción a la Computación Cuántica
-Capítulo 2. Fundamentos Matemáticos
-Capítulo 3. Qubits
-Capítulo 4. La Esfera de Bloch
-Capítulo 5. Álgebra Lineal para Computación Cuántica
-Capítulo 6. Compuertas Cuánticas
-Capítulo 7. Sistemas de múltiples qubits
-Capítulo 8. Entrelazamiento
-Capítulo 9. Medición
-Capítulo 10. Circuitos Cuánticos
-Capítulo 11. Algoritmos Cuánticos
-Capítulo 12. Qiskit
-Capítulo 13. Hardware IBM Quantum
-Capítulo 14. Mitigación de errores
-Capítulo 15. Quantum Machine Learning
+- Capítulo 1. Introducción a la Computación Cuántica
+- Capítulo 2. Fundamentos Matemáticos
+- Capítulo 3. Qubits
+- Capítulo 4. La Esfera de Bloch
+- Capítulo 5. Álgebra Lineal para Computación Cuántica
+- Capítulo 6. Compuertas Cuánticas
+- Capítulo 7. Sistemas de múltiples qubits
+- Capítulo 8. Entrelazamiento
+- Capítulo 9. Medición
+- Capítulo 10. Circuitos Cuánticos
+- Capítulo 11. Algoritmos Cuánticos
+- Capítulo 12. Qiskit
+- Capítulo 13. Hardware IBM Quantum
+- Capítulo 14. Mitigación de errores
+- Capítulo 15. Quantum Machine Learning
 
 Apéndices
 
