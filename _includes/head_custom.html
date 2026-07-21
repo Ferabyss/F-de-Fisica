@@ -14,4 +14,153 @@
     }
   };
 </script>
+
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<!-- Botón de cambio de tema -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+  <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle>
+    <line x1="12" y1="1" x2="12" y2="3"></line>
+    <line x1="12" y1="21" x2="12" y2="23"></line>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+    <line x1="1" y1="12" x2="3" y2="12"></line>
+    <line x1="21" y1="12" x2="23" y2="12"></line>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+  </svg>
+  <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </svg>
+</button>
+
+<style>
+  /* Estilos del botón */
+  .theme-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    background: var(--bg-toggle, #ffffff);
+    color: var(--text-toggle, #1a1a2e);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 9999;
+    backdrop-filter: blur(8px);
+  }
+
+  .theme-toggle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  .theme-toggle:active {
+    transform: scale(0.92);
+  }
+
+  .theme-toggle svg {
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* Icono del sol (visible en modo oscuro) */
+  .theme-toggle .sun-icon {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.5);
+  }
+
+  /* Icono de la luna (visible en modo claro) */
+  .theme-toggle .moon-icon {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+
+  /* Tema oscuro: mostrar sol, ocultar luna */
+  [data-theme="dark"] .theme-toggle .sun-icon {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+
+  [data-theme="dark"] .theme-toggle .moon-icon {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.5);
+  }
+
+  [data-theme="dark"] .theme-toggle {
+    background: rgba(30, 30, 50, 0.85);
+    color: #f0e6d0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Variables de tema para el resto de la página */
+  :root {
+    --bg-primary: #f8f4f0;
+    --bg-secondary: #ffffff;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a4a5a;
+    --border-color: #e0d8d0;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+  }
+
+  [data-theme="dark"] {
+    --bg-primary: #12121e;
+    --bg-secondary: #1e1e32;
+    --text-primary: #f0e6d0;
+    --text-secondary: #b0a8a0;
+    --border-color: #3a3a4e;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Aplicar variables a elementos comunes */
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.4s ease, color 0.3s ease;
+  }
+
+  /* Opcional: estilizar otros elementos que quieras que cambien */
+  .card, .container, header, footer {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    box-shadow: 0 2px 12px var(--shadow-color);
+    transition: background-color 0.4s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+</style>
+
+<script>
+  (function() {
+    // Detectar preferencia del sistema
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+    
+    // Determinar tema inicial
+    let theme = savedTheme || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // Botón
+    const toggleBtn = document.getElementById('theme-toggle');
+    
+    toggleBtn.addEventListener('click', function() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+    
+    // Escuchar cambios en la preferencia del sistema
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem('theme')) {
+        const newTheme = e.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+      }
+    });
+  })();
+</script>
