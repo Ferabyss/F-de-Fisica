@@ -14,7 +14,7 @@ Hasta ahora hemos mencionado que un **qubit** puede representarse mediante un ve
 
 La respuesta es el **espacio de Hilbert**, una de las estructuras matemáticas más importantes de la mecánica cuántica y, por extensión, de la computación cuántica.
 
-En computación clásica, un bit únicamente puede adoptar dos estados bien definidos, \(0\) y \(1\). En cambio, un qubit puede encontrarse en una superposición de ambos estados, por lo que resulta necesario un marco matemático capaz de describir un número infinito de combinaciones posibles. Ese marco es precisamente un espacio de Hilbert.
+En computación clásica, un bit únicamente puede adoptar dos estados bien definidos, $0$ y $1$. En cambio, un qubit puede encontrarse en una superposición de ambos estados, por lo que resulta necesario un marco matemático capaz de describir un número infinito de combinaciones posibles. Ese marco es precisamente un espacio de Hilbert.
 
 ---
 
@@ -24,7 +24,7 @@ De manera informal, un espacio de Hilbert puede entenderse como un **espacio vec
 
 En términos más formales:
 
-> Un espacio de Hilbert es un espacio vectorial sobre los números complejos \(\mathbb{C}\), equipado con un producto interno y completo respecto de la norma inducida por dicho producto.
+> Un espacio de Hilbert es un espacio vectorial sobre los números complejos $\mathbb{C}$, equipado con un producto interno y completo respecto de la norma inducida por dicho producto.
 
 Aunque esta definición puede parecer abstracta, sus consecuencias físicas son profundas. Gracias a esta estructura es posible describir estados cuánticos, calcular probabilidades de medición y representar la evolución temporal de un sistema mediante operadores lineales.
 
@@ -36,7 +36,7 @@ Es útil comenzar recordando espacios vectoriales familiares.
 
 La recta real puede representarse como
 
-\\[\mathbb{R}.\\]
+$$\mathbb{R}.$$
 
 Un plano corresponde a
 
@@ -44,7 +44,7 @@ $$ \mathbb{R}^2, $$
 
 mientras que el espacio tridimensional cotidiano es
 
-\\[\mathbb{R}^3.\\]
+$$\mathbb{R}^3.$$
 
 En estos espacios podemos sumar vectores, multiplicarlos por escalares y calcular distancias mediante el producto punto.
 
@@ -61,7 +61,7 @@ El sistema cuántico más sencillo es un único qubit.
 
 Su espacio de estados está formado por todas las combinaciones lineales de dos vectores base,
 
-\[
+$$
 |0\rangle
 =
 \begin{pmatrix}
@@ -75,35 +75,35 @@ Su espacio de estados está formado por todas las combinaciones lineales de dos 
 0\\
 1
 \end{pmatrix}.
-\]
+$$
 
 Estos vectores constituyen una **base ortonormal** del espacio
 
-\[
+$$
 \mathcal{H}\cong\mathbb{C}^{2}.
-\]
+$$
 
 En consecuencia, cualquier estado de un qubit puede escribirse como
 
-\[
+$$
 |\psi\rangle
 =
 \alpha|0\rangle
 +
 \beta|1\rangle,
-\]
+$$
 
 donde
 
-\[
+$$
 \alpha,\beta\in\mathbb{C},
-\]
+$$
 
 y cumplen la condición de normalización
 
-\[
+$$
 |\alpha|^2+|\beta|^2=1.
-\]
+$$
 
 Los coeficientes complejos \(\alpha\) y \(\beta\) reciben el nombre de **amplitudes de probabilidad**.
 
@@ -115,25 +115,25 @@ Una de las propiedades más sorprendentes de la computación cuántica es la rap
 
 Para un sistema formado por \(n\) qubits, la dimensión del espacio de Hilbert es
 
-\[
+$$
 2^n.
-\]
+$$
 
 Por ejemplo,
 
 | Número de qubits | Dimensión del espacio |
 |-----------------:|----------------------:|
-| 1 | \(2\) |
-| 2 | \(4\) |
-| 3 | \(8\) |
-| 5 | \(32\) |
-| 10 | \(1024\) |
-| 20 | \(1\,048\,576\) |
-| 50 | \(1.13\times10^{15}\) |
+| 1 | $2$ |
+| 2 | $4$ |
+| 3 | $8$ |
+| 5 | $32$ |
+| 10 | $1024$ |
+| 20 | $1\,048\,576$ |
+| 50 | $1.13\times10^{15}$ |
 
 Este crecimiento exponencial explica por qué simular sistemas cuánticos mediante computadoras clásicas resulta tan costoso.
 
-> **Observación.** Una computadora cuántica con 50 qubits no "almacena" \(2^{50}\) números clásicos, pero su estado matemático pertenece a un espacio cuya dimensión es \(2^{50}\). Esta es una de las razones por las que la simulación clásica se vuelve rápidamente impracticable.
+> **Observación.** Una computadora cuántica con 50 qubits no "almacena" $2^{50}$ números clásicos, pero su estado matemático pertenece a un espacio cuya dimensión es $2^{50}$. Esta es una de las razones por las que la simulación clásica se vuelve rápidamente impracticable.
 
 ---
 
@@ -141,15 +141,15 @@ Este crecimiento exponencial explica por qué simular sistemas cuánticos median
 
 En computación cuántica se trabaja habitualmente con la denominada **base computacional**, formada por los estados
 
-\[
+$$
 |0\rangle,
 \qquad
 |1\rangle.
-\]
+$$
 
 Para dos qubits, la base se obtiene mediante el producto tensorial,
 
-\[
+$$
 |00\rangle,
 \quad
 |01\rangle,
@@ -157,9 +157,9 @@ Para dos qubits, la base se obtiene mediante el producto tensorial,
 |10\rangle,
 \quad
 |11\rangle.
-\]
+$$
 
-De forma general, un sistema de \(n\) qubits posee \(2^n\) vectores base.
+De forma general, un sistema de $n$ qubits posee $2^n$ vectores base.
 
 Estos estados desempeñan un papel análogo al de los bits clásicos, ya que constituyen los posibles resultados de una medición en la base computacional.
 
