@@ -41,8 +41,6 @@ has_children: true
 - Capítulo 14. Mitigación de errores
 - Capítulo 15. Quantum Machine Learning
 
-Apéndices
-
 # Objetivos
 
 Al finalizar esta clase deberías ser capaz de:
@@ -59,27 +57,14 @@ Al finalizar esta clase deberías ser capaz de:
 
 Durante el curso se abordarán los siguientes temas:
 
-1. Introducción a la computación cuántica.
-2. Hardware cuántico.
-3. Qubits.
-4. Esfera de Bloch.
-5. Notación de Dirac.
-6. Estados cuánticos.
-7. Medición cuántica.
-8. Sistemas de múltiples qubits.
-9. Entrelazamiento.
-10. Puertas cuánticas.
-11. Operadores de rotación.
-12. Algoritmos cuánticos:
+### Introducción a la computación cuántica.
+
+Hardware cuántico, Qubits, Esfera de Bloch, Notación de Dirac, Estados cuánticos, Medición cuántica, Sistemas de múltiples qubits, Entrelazamiento, Puertas cuánticas, Operadores de rotación, Algoritmos cuánticos:
    - Deutsch-Jozsa
    - Grover
    - Teletransportación Cuántica
    - Shor
-14. Qiskit.
-15. Mitigación de errores.
-16. Quantum Volume.
-17. Simulación Cuántica.
-18. Quantum Machine Learning.
+Qiskit, Mitigación de errores, Quantum Volume, Simulación Cuántica y Quantum Machine Learning.
 
 ---
 
