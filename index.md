@@ -36,3 +36,5 @@ Mi pasión por la física y en especial la cosmología, me impulsa a explorar la
  
 - [TikTok](https://www.tiktok.com/@ferabyss)
 - [Twitter](https://x.com/ferabyss)
+  
+  <p><a href="https://www.buymeacoffee.com/Ferabyss"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Ferabyss" /></a></p><br><br>
