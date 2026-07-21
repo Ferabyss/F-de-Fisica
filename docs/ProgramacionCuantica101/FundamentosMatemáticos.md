@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 2 - Fundamentos Matemáticos de la Computación Cuántica"
+title: "Fundamentos Matemáticos de la Computación Cuántica"
 author: "Quantum Programming Notes"
 chapter: 2
 tags:
@@ -15,7 +15,6 @@ parent: Programación Cuántica 101
 
 ---
 
-# Capítulo 2
 # Fundamentos Matemáticos de la Computación Cuántica
 
 > *"La matemática no es un lenguaje auxiliar de la computación cuántica; es el lenguaje mismo en el que ésta está escrita."*
@@ -35,6 +34,8 @@ Al finalizar este capítulo el lector será capaz de
 - Conocer las primeras compuertas cuánticas.
 
 ---
+
+
 
 # Introducción
 
