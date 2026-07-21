@@ -15,17 +15,15 @@ Este proyecto nace como respuesta a la falta de páginas en español que cubran 
 - Mecánica Cuántica
 
 
-# Acerca de los creadores
+# Acerca de la creadora
 
 ## María Fernanda Martínez Vázquez
  
-Soy María Fernanda Martínez Vázquez, de Toluca, México. Soy estudiante de último año de Física y Matemáticas en el IPN y de primer año en la Lic. Matemáticas Aplicadas en Computación en la UNAM. Mi investigación se centra en la cosmología computacional y cuántica, respaldada por mi trabajo como asistente de investigación en el IPN. He obtenido el reconocimiento de Excelencia Cuántica de IBM y gané el Qiskit Summer Jam nacional en 2021. Durante la preparatoria, fui co-capitana del equipo de robótica Spartans #8327 de FIRST Tech Challenge, con el que obtuvimos premios como el Collins Aerospace Innovate Award, por el robot con mejor diseño y dos veces el Finalist Alliance Captain, que es un premio otorgado al segundo lugar nacional.
+Soy María Fernanda Martínez Vázquez, de Toluca, México. Soy estudiante de último año de Física y Matemáticas en el IPN y de primer año en la Lic. Matemáticas Aplicadas en Computación en la UNAM. Mi investigación se centra en la cosmología computacional y cuántica. He obtenido el reconocimiento de Excelencia Cuántica por parte de IBM y gané el Qiskit Summer Jam nacional en 2021. 
 
-
-Mi pasión por la física y en especial la cosmología, me impulsa a explorar la materia oscura, la formación de estructura y el universo temprano.
+Me gusta bastante divulgar ciencia, si estás interesado en que se agregue algún tema porfavor hazmelo saber mediante alguna de mis redes sociales.
 
 ## Mis redes sociales son:
-
 
 ### Perfiles profesionales: Ciencia y Cosmología.
 <a href="https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/" target="_blank" class="social-btn bg-linkedin" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
