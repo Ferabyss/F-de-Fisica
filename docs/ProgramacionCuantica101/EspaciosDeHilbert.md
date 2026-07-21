@@ -1,3 +1,10 @@
+---
+title: Espacios de Hilbert
+author: Ferabyss
+chapter: 3
+layout: default
+parent: Programación Cuántica 101
+---
 
 ## Espacios de Hilbert
 
