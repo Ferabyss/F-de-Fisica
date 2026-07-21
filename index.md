@@ -18,7 +18,7 @@ Este proyecto nace como respuesta a la falta de páginas en español que cubran 
     scrolling="no"
     frameborder="no"
     allow="autoplay"
-    src="[https://soundcloud.com/ferabyss/sunnier-than-yesterday-caja-abierta?url=https%3A//api.soundcloud.com/tracks/XXXXXXXXX&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+    src="[https://soundcloud.com/ferabyss/sunnier-than-yesterday-caja-abierta">
 </iframe>
 
 # Acerca de los creadores
