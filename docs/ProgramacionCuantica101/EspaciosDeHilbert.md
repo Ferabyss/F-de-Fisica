@@ -61,51 +61,25 @@ El sistema cuántico más sencillo es un único qubit.
 
 Su espacio de estados está formado por todas las combinaciones lineales de dos vectores base,
 
-$$
-|0\rangle
-=
-\begin{pmatrix}
-1\\
-0
-\end{pmatrix},
-\qquad
-|1\rangle
-=
-\begin{pmatrix}
-0\\
-1
-\end{pmatrix}.
-$$
+$$|0\rangle = \begin{pmatrix}1\\0\end{pmatrix},\qquad|1\rangle=\begin{pmatrix}0\\1\end{pmatrix}.$$
 
 Estos vectores constituyen una **base ortonormal** del espacio
 
-$$
-\mathcal{H}\cong\mathbb{C}^{2}.
-$$
+$$\mathcal{H}\cong\mathbb{C}^{2}$$
 
 En consecuencia, cualquier estado de un qubit puede escribirse como
 
-$$
-|\psi\rangle
-=
-\alpha|0\rangle
-+
-\beta|1\rangle,
-$$
+$$|\psi\rangle=\alpha|0\rangle+\beta|1\rangle,$$
 
 donde
 
-$$
-\alpha,\beta\in\mathbb{C},
-$$
+$$\alpha,\beta\in\mathbb{C},$$
 
 y cumplen la condición de normalización
 
-$$
-|\alpha|^2+|\beta|^2=1.
-$$
+$$|\alpha|^2+|\beta|^2=1.$$
 
-Los coeficientes complejos \(\alpha\) y \(\beta\) reciben el nombre de **amplitudes de probabilidad**.
+Los coeficientes complejos $\alpha$ y $\beta$ reciben el nombre de **amplitudes de probabilidad**.
 
 ---
 
@@ -113,11 +87,9 @@ Los coeficientes complejos \(\alpha\) y \(\beta\) reciben el nombre de **amplitu
 
 Una de las propiedades más sorprendentes de la computación cuántica es la rapidez con la que crece el espacio de estados.
 
-Para un sistema formado por \(n\) qubits, la dimensión del espacio de Hilbert es
+Para un sistema formado por $n$ qubits, la dimensión del espacio de Hilbert es
 
-$$
-2^n.
-$$
+$$2^n.$$
 
 Por ejemplo,
 
@@ -141,23 +113,11 @@ Este crecimiento exponencial explica por qué simular sistemas cuánticos median
 
 En computación cuántica se trabaja habitualmente con la denominada **base computacional**, formada por los estados
 
-$$
-|0\rangle,
-\qquad
-|1\rangle.
-$$
+$$|0\rangle,\qquad|1\rangle.$$
 
 Para dos qubits, la base se obtiene mediante el producto tensorial,
 
-$$
-|00\rangle,
-\quad
-|01\rangle,
-\quad
-|10\rangle,
-\quad
-|11\rangle.
-$$
+$$|00\rangle,\quad|01\rangle,\quad|10\rangle,\quad|11\rangle.$$
 
 De forma general, un sistema de $n$ qubits posee $2^n$ vectores base.
 
