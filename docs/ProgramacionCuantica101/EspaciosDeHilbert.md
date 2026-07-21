@@ -36,21 +36,15 @@ Es útil comenzar recordando espacios vectoriales familiares.
 
 La recta real puede representarse como
 
-\[
-\mathbb{R}.
-\]
+\\[\mathbb{R}.\\]
 
 Un plano corresponde a
 
-\[
-\mathbb{R}^2,
-\]
+$$ \mathbb{R}^2, $$
 
 mientras que el espacio tridimensional cotidiano es
 
-\[
-\mathbb{R}^3.
-\]
+\\[\mathbb{R}^3.\\]
 
 En estos espacios podemos sumar vectores, multiplicarlos por escalares y calcular distancias mediante el producto punto.
 
